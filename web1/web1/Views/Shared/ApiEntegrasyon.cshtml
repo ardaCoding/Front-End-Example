@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "ApiEntegrasyon";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+}
+
+<h2>ApiEntegrasyon</h2>
+@if (ViewBag.Error != null)
+{
+    <p style="color: red;">@ViewBag.Error</p>
+}
+else
+{
+    <p>API Yanıtı: @Model</p>
+}
+
+
